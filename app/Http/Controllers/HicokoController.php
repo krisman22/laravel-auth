@@ -10,7 +10,7 @@ class HicokoController extends Controller
 {
     public function index()
     {
-        Mail::to("admin@hicokostudio.com")->send(new HicokoEmail());
+        Mail::to("aanzee.az7@gmail.com")->send(new HicokoEmail());
         return "Email telah dikirim";
     }
 }

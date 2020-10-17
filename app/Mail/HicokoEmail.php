@@ -29,6 +29,7 @@ class HicokoEmail extends Mailable
     public function build()
     {
         return $this->from('sender@hicokostudio.com')
+                    ->subject('Tesing Email')
                     ->view('emailku')
                     ->with([
                         'nama' => 'Kevin Thanos',
